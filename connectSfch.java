@@ -17,9 +17,9 @@ import com.jcraft.jsch.SftpException;
 public class connectSfch   
 {  
 	public static void main(String[] args) {
-		 	String host = "192.168.56.111"; // Replace with your server's IP address or hostname
-	        String username = "mdmadmin"; // Replace with your SSH username
-	        String password = "mdmadmin";// Replace with your SSH password (or use public key authentication)
+		 	String host = "host"; // Replace with your server's IP address or hostname
+	        String username = "user"; // Replace with your SSH username
+	        String password = "passwd";// Replace with your SSH password (or use public key authentication)
 	        
 	        String localFilePath = "D:\\BBMComposites.cba_1.0.0.202305041036.cba";
 	        String remoteFilePath = "/home/nmehta";
